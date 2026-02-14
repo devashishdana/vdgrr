@@ -31,8 +31,8 @@ body {
   background: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Darker overlay */
         url('image.jpeg'); /* Background image */
-  background-size: cover; /* Cover the entire page */
-  background-position: center; /* Center the image */
+  background-size: contain; /* Cover the entire page */
+  background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */}
 
 .flowers {
